@@ -1,0 +1,24 @@
+1->what is jquery?
+
+->jquery is a lightweight."write less,do more" javascript library.
+require many line of javascript google,microsoft,ibm,netflix companies use .completely browser independnt
+
+
+basic syntaxis:
+$(selector).action()
+ex. $("#id").hide();
+
+2) hoe to use jquery?
+
+->.production version-this is for your live website because it has been minified and compressed
+->.Development version-this is for testing and development (uncompressed and readable code)
+
+3) array  use react
+->map()
+->filter
+->forEach
+->some
+->every
+
+
+

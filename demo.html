@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.0.min.js"></script> <!-- offline use link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- online use link -->
+    <title>Document</title>
+</head>
+<style>
+    .main {
+        display: flex;
+    }
+
+    .red {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+    }
+
+    .blue {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+
+    <div class="test">i am go</div>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p id="tst2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p id="test3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+    <ul>
+        <li >ekglhjsojrlwbdfjgbnlhkewabfgrj</li>
+        <li >ekglhjsojrlwabfgrj</li>
+    </ul> 
+
+    <!-- <button id="hideandseek">click</button> -->
+
+    <!-- <a href="#" id="anchor">welcome to my channel</a> -->
+    <!-- <button id="jquerycss">click me</button> -->
+
+    <!-- <ol type="1" style="list-style: none;">
+    <li>index 0: javascrpit</li>
+    <li>index 1: java</li>
+    <li>index 2: c</li>
+    <li>index 3: C++</li>
+</ol> -->
+    <!-- <div class="main">
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="blue"></div>
+        <div class="blue"></div>
+    </div> -->
+
+    <button id="test">click</button>
+
+    <script>
+
+        // javascript 
+        // document.getElementById('test').innerHTML="hello world ";
+        // function hideandseek(){
+        //     document.getElementById('test').style.display="none";
+        // }
+
+        // jQuery
+        $(document).ready(function () {
+            // $("#test").text("hello world prasad");
+              $("#test").click(function(){
+                  $("li:last").hide();
+              });
+            // $("#jquerycss").click(function(){
+            //     $("#anchor").css({
+            //         "textDecoration":"none","backgroundColor":"red","color":"white"
+            //     });
+            // })
+
+            // $("#btn").click(function()
+            // {
+            // $("*").css("backgroundColor","red")
+            // $(this).css("backgroundColor","red")
+            //  $("[type]").hide("slow")
+            // $("li:even").css("color","red")
+            // $("li:first-child").css("color")
+            // })
+            // $(".red").css("backgroundColor", "red")
+            // $(".blue").css("backgroundColor", "blue")
+            // $("#btn").click(function () {
+            //     $(".red, .blue").hide("slow")
+            // })
+            // $("#btn").dblclick(function () {
+            //     $(".red, .blue").show("slow")
+            // })
+
+        });
+    </script>
+</body>
+
+</html>

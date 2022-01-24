@@ -1,0 +1,16 @@
+#con{
+    text-align: center;
+}
+
+.hello{
+    color: wheat;
+    background-color: black;
+    width: 300px;
+}
+
+/* not available */
+.hi{
+    color: black;
+    background-color: cornflowerblue;
+    width: 300px;
+}

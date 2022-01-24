@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.0.min.js"></script> <!-- offline use link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- online use link -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3 type keyboards -1.keyup,2.keypress,3.keydown -->
+<form>
+    <label>User Name</label>
+    <input type="text" name="prasad">
+</form>
+    
+    <button id="test">click</button>
+    <script>
+
+        // jQuery
+        $(document).ready(function () {
+            //keypress..........
+            // $("input").keypress(function () {
+            //     $(this).css("backgroundColor", "red");
+            // });
+            // keydown......
+            // $("input").keydown(function () {
+            //     $(this).css("backgroundColor", "red");
+            // });
+            // keyup...............
+            $("input").keyup(function () {
+                $(this).css("backgroundColor", "red");
+            });
+        });
+    </script>
+</body>
+
+</html>

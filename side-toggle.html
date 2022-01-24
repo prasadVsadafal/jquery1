@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.0.min.js"></script> <!-- offline use link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- online use link -->
+    <title>Document</title>
+</head>
+<style>
+#panel,#flip{
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel{
+    padding: 50px;
+    display: none;
+    background-color: pink;
+}
+h1{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+</style>
+
+<body>
+    <h1>SlideDown and Slideup Effects in jquery</h1>
+    <div id="flip">Click to slide down panel</div>
+    <div id="panel">Hello world !</div>
+    
+    <button id="btn">Show/Hide</button>
+
+    <script>
+
+        $(document).ready(function () {            
+            $("#flip").click(function(){
+                $("#panel").slideToggle("slow")
+            })
+        
+        });
+    </script>
+</body>
+
+</html>
