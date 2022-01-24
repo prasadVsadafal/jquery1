@@ -1,0 +1,20 @@
+git  step
+
+folder open and right click then open git bash here click 
+
+open type 
+git init 
+git add .
+git status
+git add .
+git status
+git commint -m "no change"
+git status
+git log
+git add remote origin " github link"
+git push -u origin master
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
+
